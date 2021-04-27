@@ -23,7 +23,6 @@ function App() {
     setPercent(e.target.value)
   }
 
-//(billAmount.value*(30/100))/people.value
 
   const Calculate = () => {
     
@@ -33,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>TIP CALCULATOR</h1>
       <div className="billAmount">
         <label>How much your bill?</label>
         <input value={billAmount} onChange={ChangeBillValue}></input>
