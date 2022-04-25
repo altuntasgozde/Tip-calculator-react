@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 .App {
   width:100%;
@@ -6,8 +7,20 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(108,9,121);
+background: linear-gradient(90deg, rgba(108,9,121,1) 26%, rgba(0,212,255,1) 100%);
+}
 
+.main {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
 
+.main h2 {
+  color:#0094b3;
+  text-align: center;	
 }
 
 .billAmount, .percent, .person, .buttonArea  {
@@ -15,21 +28,45 @@
   flex-direction: column;
 }
 
-input, select {
-  height:25px;
+input {
+  height:35px;
   width:300px;
   margin: 10px 0;
+  border:1px solid #D8D8D8;
+  outline: none;
+  box-shadow: 2px 2px 2px #C8C8C8;
+  border-radius: 5px;
+  padding:5px;
+}
+
+select {
+  height:45px;
+  width:310px;
+  margin: 10px 0;
+  border:1px solid #D8D8D8;
+  outline: none;
+  box-shadow: 2px 2px 2px #C8C8C8;
+  border-radius: 5px;
+  padding:5px;
 }
 
 label {
   font-size:18px;
   font-weight: bold;
+  color:#005566;
 }
 
 button {
-  background-color: darkblue;
-  border:1px solid darkblue;
+  background-color: #0094b3;
+  border:1px solid #0094b3;
   color:white;
-  width:100px;
-  height: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+
+}
+
+.buttonArea h2 {
+  text-align: center;
 }
